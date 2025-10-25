@@ -5,7 +5,7 @@ using System.Linq;
 using System.Security;
 
 
-namespace EyeWitness
+namespace SharpWitness
 {
     internal class Journalist
     {
@@ -16,7 +16,7 @@ namespace EyeWitness
             {
                 html += @"<html>
     <body>
-    <center><h1>EyeWitness</h1></center>
+    <center><h1>SharpWitness</h1></center>
     <center><html>
         <head>
         <title></title></head><br><br>";
