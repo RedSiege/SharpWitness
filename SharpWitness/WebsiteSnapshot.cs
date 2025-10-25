@@ -3,7 +3,7 @@ using System.Drawing;
 using System.Threading;
 using System.Windows.Forms;
 
-namespace EyeWitness
+namespace SharpWitness
 {
     /// <summary>
     ///  Borrowed and edited from the genius people at https://github.com/AppReadyGo/EyeTracker

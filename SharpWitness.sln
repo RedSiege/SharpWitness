@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31205.134
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EyeWitness", "EyeWitness\EyeWitness.csproj", "{162F9754-3644-46F1-A061-61DE163BFECC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpWitness", "SharpWitness\SharpWitness.csproj", "{162F9754-3644-46F1-A061-61DE163BFECC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

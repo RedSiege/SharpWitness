@@ -13,7 +13,7 @@ using System.IO.Compression;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 
-namespace EyeWitness
+namespace SharpWitness
 {
     class Program
     {
@@ -65,7 +65,7 @@ namespace EyeWitness
             var helpText = HelpText.AutoBuild(result, h =>
             {
                 h.AdditionalNewLineAfterOption = false;
-                h.Heading = "EyeWitness C# Version 1.1"; //change header
+                h.Heading = "SharpWitness C# Version 1.1"; //change header
                 h.Copyright = ""; //change copyright text
                 return HelpText.DefaultParsingErrorsHandler(result, h);
             }, e => e);
@@ -104,7 +104,7 @@ namespace EyeWitness
                 }
             }
             
-            witnessDir = witnessPath + "\\EyeWitness_" + DateTime.Now.ToString("yyyy-MM-dd_HHmmss");
+            witnessDir = witnessPath + "\\SharpWitness_" + DateTime.Now.ToString("yyyy-MM-dd_HHmmss");
             Directory.CreateDirectory(witnessDir + "\\src");
             Directory.CreateDirectory(witnessDir + "\\images");
             Directory.CreateDirectory(witnessDir + "\\headers");
@@ -439,7 +439,7 @@ namespace EyeWitness
 
         static void Main(string[] args)
         {
-            Console.WriteLine("[+] Firing up EyeWitness...\n");
+            Console.WriteLine("[+] Firing up SharpWitness...\n");
             string[] allUrls = null;
             List<string> faveUrls = null;
             int delay = 30000;

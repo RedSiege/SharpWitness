@@ -9,7 +9,7 @@ using System.Security;
 using System.Threading.Tasks;
 using Microsoft.Win32;
 
-namespace EyeWitness
+namespace SharpWitness
 {
     public class WitnessedServer
     {
