@@ -150,7 +150,7 @@ namespace SharpWitness
             categoryRankDict.Add("voip", new object[] { "Voice/Video over IP (VoIP)", 0 });
             categoryRankDict.Add("None", new object[] { "Uncategorized", 0 });
             categoryRankDict.Add("uncat", new object[] { "Uncategorized", 0 });
-            categoryRankDict.Add("crap", new object[] { "Splash Pages", 0 });
+            categoryRankDict.Add("splash", new object[] { "Splash Pages", 0 });
             categoryRankDict.Add("printer", new object[] { "Printers", 0 });
             categoryRankDict.Add("camera", new object[] { "Cameras", 0 });
             categoryRankDict.Add("infrastructure", new object[] { "Infrastructure", 0 });
